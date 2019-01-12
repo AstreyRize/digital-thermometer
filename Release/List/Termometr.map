@@ -1,0 +1,28 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                                             0x0080       9
+numbers                                                                           0x0089      11
+digit                                                                             0x0094       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+TEMPERATURE_REQUESTED                                                             R3           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SetNumber                                                                         0x00056     27
+SetMinus                                                                          0x00071     24
+ShowNumber                                                                        0x00089     72
+main                                                                              0x000D1     91
+ds18b20_select                                                                    0x0012C     26
+ds18b20_read_spd                                                                  0x00146     28
+ds18b20_request_temperature                                                       0x00162     21
+ds18b20_get_temperature                                                           0x00177     44
+ds18b20_init                                                                      0x001A3     58

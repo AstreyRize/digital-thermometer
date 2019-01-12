@@ -1,0 +1,4 @@
+main DSTACK_USAGE:4 DSTACK_LEVEL:4 FILE:"Termometr.c" LINE:123
+ds18b20_init DSTACK_USAGE:4 DSTACK_LEVEL:8 FILE:"D:\Program Files (x86)\CVAVR\lib\ds18b20.lib" LINE:136
+ds18b20_read_spd DSTACK_USAGE:3 DSTACK_LEVEL:11 FILE:"D:\Program Files (x86)\CVAVR\lib\ds18b20.lib" LINE:47
+ds18b20_select DSTACK_USAGE:2 DSTACK_LEVEL:13 FILE:"D:\Program Files (x86)\CVAVR\lib\ds18b20.lib" LINE:19

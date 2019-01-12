@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                                             0x00A0       9
+temperature                                                                       0x00A9       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+numbers                                                                           0x0000      10
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SetNumber                                                                         0x00031     27
+timer0_ovf_isr                                                                    0x0004C     43
+timer1_ovf_isr                                                                    0x00077     48
+main                                                                              0x000A7     51
+ds18b20_select                                                                    0x000DA     26
+ds18b20_read_spd                                                                  0x000F4     28
+ds18b20_temperature                                                               0x00110     57
